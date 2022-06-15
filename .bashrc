@@ -12,6 +12,7 @@ export PATH=~/.local/bin:$PATH
 
 alias ls='ls --color=auto'
 alias pac="sudo pacman"
+alias nvim="lvim"
 
 # Import colorscheme from 'wal' asynchronously
 # &   # Run the process in the background.
