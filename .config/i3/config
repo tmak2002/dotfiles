@@ -193,8 +193,8 @@ exec wal -R
 # polybar
 exec_always --no-startup-id ~/.config/polybar/launch.sh
 
-# wal
-# exec wal -R
+# flameshot
+exec flameshot &
 
 # other keybinds
 bindsym $alt+r exec systemctl reboot
