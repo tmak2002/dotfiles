@@ -12,6 +12,8 @@
 - **App launcher:** [jgmenu](https://github.com/johanmalm/jgmenu)
 - **Compositor:** [picom](https://github.com/yshui/picom)
 - **Document viewer:** [zathura](https://github.com/pwmt/zathura)
+- **Browser:** Firefox
+
 # TODO
 - add Notification daemon ([dunst](https://github.com/dunst-project/dunst))
 - add Lockscreen ([BetterLockscreen](https://github.com/betterlockscreen/betterlockscreen))
