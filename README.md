@@ -1,10 +1,10 @@
 # Information
-- **OS:** (Arch Linux)[https://archlinux.org]
-- **WM:** (I3-Gaps)[https://github.com/Airblader/i3]
+- **OS:** [Arch Linux](https://archlinux.org)
+- **WM:** [I3-Gaps](https://github.com/Airblader/i3)
 - **Shell:** bash
-  - **Prompt:** (starahip)[https://github.com/starship/starship]
-- **Terminal emulator:** (alacritty)[https://github.com/alacritty/alacritty]
-- **Font:** (Iosevka)[https://github.com/be5invis/Iosevka]
+  - **Prompt:** [starahip](https://github.com/starship/starship)
+- **Terminal emulator:** [alacritty](https://github.com/alacritty/alacritty)
+- **Font:** [Iosevka](https://github.com/be5invis/Iosevka)
 - **Screenshot software:** (Flameshot)[https://github.com/flameshot-org/flameshot]
 - **Statusbar:** (polybar)[https://github.com/polybar/polybar]
 - **Text editor:** (neovim)[https://github.com/neovim/neovim]
