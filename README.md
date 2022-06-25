@@ -13,6 +13,7 @@
 - **Compositor:** [picom](https://github.com/yshui/picom)
 - **Document viewer:** [zathura](https://github.com/pwmt/zathura)
 - **Browser:** Firefox
+- **Image viewer:** [geeqie](https://github.com/BestImageViewer/geeqie)
 
 # TODO
 - add Notification daemon ([dunst](https://github.com/dunst-project/dunst))
