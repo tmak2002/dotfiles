@@ -1,0 +1,48 @@
+config:
+  backup: true
+  create: true
+  dotpath: dotfiles
+dotfiles:
+  f_xinitrc:
+    src: xinitrc
+    dst: ~/.xinitrc
+  f_gitconfig:
+    src: gitconfig
+    dst: ~/.gitconfig
+  f_bashrc:
+    src: bashrc
+    dst: ~/.bashrc
+  d_i3:
+    src: config/i3
+    dst: ~/.config/i3
+  d_polybar:
+    src: config/polybar
+    dst: ~/.config/polybar
+  f_ssh-agent.service:
+    src: config/systemd/user/ssh-agent.service
+    dst: ~/.config/systemd/user/ssh-agent.service
+  f_alacritty.yml:
+    src: config/alacritty/alacritty.yml
+    dst: ~/.config/alacritty/alacritty.yml
+  d_backgrounds:
+    src: config/backgrounds
+    dst: ~/.config/backgrounds
+  f_picom.conf:
+    src: config/picom/picom.conf
+    dst: ~/.config/picom/picom.conf
+  d_alacritty:
+    src: config/alacritty
+    dst: ~/.config/alacritty
+profiles:
+  tmak2002:
+    dotfiles:
+    - f_xinitrc
+    - f_gitconfig
+    - f_bashrc
+    - d_i3
+    - d_polybar
+    - f_ssh-agent.service
+    - f_alacritty.yml
+    - d_backgrounds
+    - f_picom.conf
+    - d_alacritty

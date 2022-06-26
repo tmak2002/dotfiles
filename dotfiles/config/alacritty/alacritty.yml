@@ -1,0 +1,18 @@
+# Configuration for Alacritty, the GPU enhanced terminal emulator.
+
+# Import files
+import:
+  - ~/.config/alacritty/fonts.yml
+
+# Cursor settings
+cursor:
+  style:
+    shape: block
+    blinking: off
+
+window:
+  live_config_reload: true
+
+key_bindings:
+  - { key: E, mods: Control, action: Paste }
+  - { key: K, mods: Control, action: Copy }
