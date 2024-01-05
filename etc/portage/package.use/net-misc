@@ -1,0 +1,1 @@
+net-misc/curl -alt-svc -imap -pop3 -smtp -ftp -tftp

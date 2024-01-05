@@ -1,0 +1,7 @@
+/dev/nvme0n1p1		/boot		vfat    defaults,noauto,noatime 0 0
+/dev/nvme0n1p2		/                       ext4    defaults,noatime                             0 1
+/dev/nvme0n1p3          /home           ext4    defaults,noatime,nodev,nosuid           0 2
+tmpfs           /tmp                    tmpfs   rw,noexec,nodev,nosuid,mode=1777                0 0
+
+# if you have 16 GB RAM (or more) add this line also (I did it - it loves your SSD and speeds up all of your emerges):
+tmpfs           /var/tmp/portage        tmpfs   rw,nodev,nosuid,size=12G,uid=portage,gid=portage,mode=775,noatime       0 0
