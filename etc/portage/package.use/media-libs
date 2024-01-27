@@ -1,2 +1,5 @@
 media-libs/libvpx  postproc
 media-libs/libglvnd X
+media-libs/harfbuzz icu
+media-libs/libepoxy X
+media-libs/mesa X
