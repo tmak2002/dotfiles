@@ -33,3 +33,4 @@ cp /usr/share/portage/config/repos.conf /etc/portage/repos.conf/gentoo.conf
 mkdir /efi                                             
 mount /dev/nvme0n1p1 /efi 
 emerge-webrsync 
+emerge --sync 
