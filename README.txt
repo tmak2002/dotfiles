@@ -22,3 +22,14 @@ wget https://distfiles.gentoo.org/releases/amd64/autobuilds/20240312T171909Z/sta
 tar xpvf stage3-*.tar.xz --xattrs-include='*.*' --numeric-owner 
 nano /mnt/gentoo/etc/portage/make.conf 
 cp --dereference /etc/resolv.conf /mnt/gentoo/etc/
+mount --types proc /proc /mnt/gentoo/proc 
+mount --rbind /sys /mnt/gentoo/sys 
+mount --rbind /dev /mnt/gentoo/dev 
+mount --bind /run /mnt/gentoo/run 
+chroot /mnt/gentoo /bin/bash 
+echo "Europe/Berlin" > /etc/timezone 
+mkdir --parents /etc/portage/repos.conf 
+cp /usr/share/portage/config/repos.conf /etc/portage/repos.conf/gentoo.conf 
+mkdir /efi                                             
+mount /dev/nvme0n1p1 /efi 
+emerge-webrsync 
