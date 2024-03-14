@@ -34,3 +34,10 @@ mkdir /efi
 mount /dev/nvme0n1p1 /efi 
 emerge-webrsync 
 emerge --sync 
+emerge --config sys-libs/timezone-data 
+nano -w /etc/locale.gen 
+locale-gen 
+eselect locale list 
+eselect locale set 4 
+env-update
+ . /etc/profile 
