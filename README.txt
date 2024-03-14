@@ -41,3 +41,4 @@ eselect locale list
 eselect locale set 4 
 env-update
  . /etc/profile 
+emerge --ask sys-kernel/linux-firmware 
