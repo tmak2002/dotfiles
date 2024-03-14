@@ -19,3 +19,6 @@ mount /dev/nvme0n1p2 /mnt/gentoo
 chronyd -q 
 cd /mnt/gentoo 
 wget https://distfiles.gentoo.org/releases/amd64/autobuilds/20240312T171909Z/stage3-amd64-hardened-nomultilib-openrc-20240312T171909Z.tar.xz
+tar xpvf stage3-*.tar.xz --xattrs-include='*.*' --numeric-owner 
+nano /mnt/gentoo/etc/portage/make.conf 
+cp --dereference /etc/resolv.conf /mnt/gentoo/etc/
