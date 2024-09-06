@@ -1,0 +1,2 @@
+net-libs/nodejs npm
+dev-lang/python ensurepip ssl sqlite ncurses readline

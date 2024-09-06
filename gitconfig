@@ -1,0 +1,9 @@
+[user]
+  name = Torben Kahnert
+  email = torben@tmak2002.dev
+  username = tmak2002
+  signingkey = 746F26036EFD2E43!
+[core]
+  editor = nano
+[commit]
+  gpgsign = true

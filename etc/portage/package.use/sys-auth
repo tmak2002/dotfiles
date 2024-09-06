@@ -1,0 +1,3 @@
+sys-auth/elogind pam
+sys-auth/pambase elogind
+sys-auth/seatd elogind server

@@ -1,0 +1,8 @@
+sys-apps/elfix xtpax
+sys-apps/systemd-utils tmpfiles udev
+sys-apps/util-linux su pam suid
+sys-apps/openrc netifrc
+sys-apps/portage native-extensions ipc
+sys-apps/net-tools hostname
+sys-apps/dbus elogind
+sys-apps/shadow pam

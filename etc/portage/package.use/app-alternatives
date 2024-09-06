@@ -1,0 +1,10 @@
+app-alternatives/awk gawk
+app-alternatives/bzip2 lbzip2
+app-alternatives/gzip pigz
+app-alternatives/sh bash
+app-alternatives/tar gnu
+app-alternatives/ninja samurai
+app-alternatives/yacc bison
+app-alternatives/lex reflex
+app-alternatives/bc gnu
+app-alternatives/cpio gnu

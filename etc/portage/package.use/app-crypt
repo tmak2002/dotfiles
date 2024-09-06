@@ -1,0 +1,3 @@
+app-crypt/libsecret crypt
+app-crypt/gnupg bzip2
+app-crypt/gpgme cxx # needed by libreoffice

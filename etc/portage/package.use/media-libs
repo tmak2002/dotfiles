@@ -1,0 +1,5 @@
+media-libs/harfbuzz truetype glib icu graphite # needed by libreoffice (icu,graphite)
+media-libs/freetype png
+media-libs/mesa llvm gles2 X # needed by libreoffice (X)
+media-libs/libglvnd X
+media-libs/libepoxy X # needed by libreoffice
