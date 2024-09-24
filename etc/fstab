@@ -1,0 +1,5 @@
+/dev/nvme0n1p1  /efi                    vfat    defaults,noauto,noatime                         1 2
+/dev/nvme0n1p2  /                       ext4    defaults,noatime                                0 1
+/dev/nvme0n1p3  /home                   ext4    defaults,noatime,nodev,nosuid           0 2
+tmpfs           /tmp                    tmpfs   rw,noexec,nodev,nosuid,mode=1777                0 0
+tmpfs           /var/tmp/portage        tmpfs   rw,nodev,nosuid,size=20G,uid=portage,gid=portage,mode=775,noatime       0 0
