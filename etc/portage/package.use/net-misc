@@ -1,2 +1,2 @@
-net-misc/curl http2 ssl openssl curl_ssl_openssl
 net-misc/openssh ssl
+net-misc/curl ssl openssl curl_ssl_openssl http2

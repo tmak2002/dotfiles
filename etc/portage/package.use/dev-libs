@@ -1,6 +1,1 @@
-dev-libs/ncurses tinfo
-dev-libs/glib mime
 dev-libs/libpcre2 unicode pcre16
-dev-libs/nettle  gmp
-dev-libs/boost nls zlib # needed by libreoffice
-dev-libs/xmlsec nss # needed by libreoffice
